@@ -1,5 +1,5 @@
 :root {
-    --baseColor: #BADA55;
+    --baseColor: #bada55;
     --buttonPadding: 10px;
     --buttonBlur: 0px;
     --buttonRadius: 5px;
@@ -44,17 +44,25 @@ h2 {
     font-size: 3rem
 }
 
+section.data {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 2;
+}
+
 .imputs {
-    padding: 10px;
+    width: fit-content;
+    padding: 5px 10px;
     border: 2px solid #fff;
     border-radius: 8px;
-    margin-bottom: 30px;
     background-color: #000;
-
+    margin-right: 20px;
 }
 
 .valueSwitcher {
-    padding: 5px 0;
+  
 }
 
 .buttonToStyle {
@@ -79,7 +87,15 @@ h2 {
     7px 7px var(--baseColor);
     color: #fff;
 }
-
+/*Results*/
+#result{
+    border: 2px solid #fff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: fit-content;
+    background-color: #000;
+    height: fit-content;
+}
 /*Footer*/
 
 footer {
