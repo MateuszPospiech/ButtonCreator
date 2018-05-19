@@ -11,7 +11,8 @@ function updateStyles() {
     const bodyStyle = getComputedStyle(document.body);
     
     
-    result.innerHTML = `padding: ${bodyStyle.getPropertyValue('--buttonPadding')};
+    result.innerHTML = `<h4>CSS Styles:</h4>
+    padding: ${bodyStyle.getPropertyValue('--buttonPadding')};
     <br>filter: blur( ${bodyStyle.getPropertyValue('--buttonBlur')});
     <br>background-color: ${bodyStyle.getPropertyValue('--baseColor')};
     <br>height: ${bodyStyle.getPropertyValue('--buttonHeight')};
